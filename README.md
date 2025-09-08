@@ -2,9 +2,6 @@
 This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
 
-조촐하게 올려보는 PS Solution 입니다.
-자동으로 깃 ProblemSolving-DataStructures-Algorithms
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
 
 
 조촐하게 올려보는 PS Solution 입니다.
