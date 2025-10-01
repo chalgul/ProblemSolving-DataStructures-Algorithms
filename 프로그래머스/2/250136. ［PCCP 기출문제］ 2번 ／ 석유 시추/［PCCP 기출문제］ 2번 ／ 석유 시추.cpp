@@ -1,15 +1,15 @@
 #include <string>
 #include <vector>
 #include <queue>
-#include <map>
-#include <set>
+#include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
 //효율을 따지려면 이미 한 번 BFS 돌린 영역은 다시 안돌리고 재활용 해야 함.
 
 //key : 시추 고유 ID, value : 너비 값
-map<int,int> BFSResult;
+unordered_map<int,int> BFSResult;
 
 
 
@@ -31,7 +31,7 @@ int solution(vector<vector<int>> land) {
     {
         int TotalVal = 0;
         int Val = 0;
-        set<int> IsAlreadySearch;
+        unordered_set<int> IsAlreadySearch;
         //세로 길이
         for(int j = 0; j < row; ++j)
         {
