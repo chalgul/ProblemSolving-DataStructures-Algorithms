@@ -16,12 +16,13 @@ long long solution(int r1, int r2) {
     
     //20 40 72 104 140
     
-
+    long long R2 = r2;
     
     int a,b;
     for(int i = 1; i <= r1; ++i)
     {
-       a = floor(sqrt(pow(r2,2) - pow(i,2)));
+       a = floor(sqrt(R2 * R2 - (long long)i * i));
+       //a = floor(sqrt(pow(r2,2) - pow(i,2)));
        b = ceil(sqrt(pow(r1,2) - pow(i,2)));
     
        answer += (a - b + 1);
