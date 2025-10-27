@@ -58,7 +58,7 @@ vector<string> solution(vector<vector<string>> plans) {
     int StartTime, SpendTime;
     string Subject;
 
-    while (CurMin <= 200000)
+    while (CurMin <= 60 * 24)
     {
         if (!PQ.empty())
         {
